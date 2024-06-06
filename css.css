@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: rgb(255, 194, 108);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.6cm;
+}
+img{
+    border-radius: 30px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InformationsCollection</title>
+</head>
+<body>
+    <style>
+        header {
+        background-image: url('./nenguitar.avif');
+        color: white;
+        padding: 100px;
+        text-align: center;
+        }
+    </style>
+        <header>
+        <h1 style="text-transform: uppercase; font-size: 1.5cm; text-shadow: 3px 3px rgb(255, 98, 0);">Đăng ký khóa học guitar NCT</h1>
+        </header>
+    <p style="text-align: left; font-size: 1cm;"><b>Thông tin cá nhân</b></p>
+    <br>   
+    <form action="">
+        <input type="text" placeholder="Họ và tên" style="width: 100%; height: 0.6cm;">
+        <br> <br>
+        <input type="email" placeholder="Email" id="email" style="width: 100%; height: 0.6cm;">
+        <br><br>
+        <input type="tel" placeholder="Số điện thoại" style="width: 100%; height: 0.6cm;">
+        <br>
+        <p style="text-align: left;">
+        <input type="number" placeholder="Tuổi" id="age" min="6" max="80" style="width: 10%; height: 0.6cm;">
+        </p>
+        <p style="text-align: right;">
+        <input style="margin: 0.5cm;" type="reset" value="Xóa hết">
+        </p>
+    </form>
+    <marquee behavior="" direction="left" style="color: rgb(255, 165, 165); font-size: larger;">Dạy guitar bất kì độ tuổi, trình độ từ 6 tới 80</marquee>
+    <p style="text-align: center;">
+        <img src="./gifguitar2.gif" width="600px" alt="">
+    </p>
+    <p style="text-align: left; font-size: 1cm;"><b>Thông tin khóa học</b></p>
+    <form action="">
+        <p style="text-align: left; font-size: 0.5cm;">Loại nhạc cụ muốn học:</p>
+        <p style="text-align: left;">
+        <input list="instruments" id="instrument" style="height: 0.6cm;">
+        <datalist id="instruments">
+        <option value="Guitar">
+        <option value="Piano">
+        <option value="Electric Guitar">
+        <option value="Bass Guitar">
+        </datalist>
+        </p>
+    <p style="text-align: left; font-size: 0.5cm;">Lựa chọn ngày bắt đầu học:</p>
+        <p style="text-align: left;">
+            <input type="datetime-local" style="height: 0.65cm;">
+        </p>
+        <br>
+    <p>
+        <p style="text-align: left; font-size: 0.5cm;">Mong muốn, đề xuất thêm về khóa học:</p>
+        <textarea name="" id="" rows="5" cols="100%" style="width: 100%;"></textarea>
+    </p>
+    <p style="text-align: right;">
+    <input style="margin: 0.5cm;" type="reset" value="Xóa hết">
+    </p>
+    </form>
+    <p style="text-align: center;">
+        <a href="./dangky.html"><img src="./dk.gif" height="100px" width="280px" alt=""></a>
+    </p>
+    <p style="text-align: center;">
+        <img src="./gifguitar.gif" alt="">
+    </p>
+    <footer><b>
+        <p>&copy; NCT Music for life</p>
+        <p>For contact: 0336554256</p>
+    </b></footer>
+</body>
+</html>
